@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.grid-container {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.common {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    border: solid 1px #ffffff;
+}
+
+#id1 {
+    border-top-style: none;
+    border-left-style: none;
+}
+
+#id2 {
+    border-top-style: none;
+}
+
+#id3 {
+    border-top-style: none;
+    border-right-style: none;
+}
+
+#id4 {
+    border-left-style: none;
+}
+
+#id6 {
+    border-right-style: none;
+}
+
+#id7 {
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+#id8 {
+    border-bottom-style: none;
+}
+
+#id9 {
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+.state {
+    width: 300px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 30px 30px;
+    margin: 20px auto;
+}
+
+.state div {
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
